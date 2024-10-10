@@ -15,12 +15,11 @@ body {
     flex-direction: column;
 }
 
-#header {
-    position: relative;
-            padding: 15px;
-            width: auto;
-            margin-top: -36px;
-            margin-left: -35px;
+#header h1{
+    
+   padding: 7px;   
+           
+           
 }
 /* Header Styles */
 #header {
@@ -29,6 +28,9 @@ body {
     width: auto; /* Make header responsive by setting the width to 100% */
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: -30px;
+    margin-left: -35px;
+    
 }
 
 h1 {
