@@ -215,7 +215,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
 <div class="form-container">
-        <h2>Edit Profile</h2>
+        <h2>Edit Information</h2>
         <form method="POST" enctype="multipart/form-data">
 
         <label for="profile_image">Profile Image:</label>
