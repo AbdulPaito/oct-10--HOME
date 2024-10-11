@@ -2,6 +2,12 @@
 // Start the session
 session_start();
 
+// Set headers to prevent caching
+header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1
+header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");  // Date in the past
+header("Pragma: no-cache"); // For backward compatibility with HTTP/1.0
+header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+
 
 // If user is not logged in, redirect to login page
 if (!isset($_SESSION['user_id'])) {
