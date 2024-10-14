@@ -13,18 +13,20 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 #header h1{
     
-   padding: 7px;   
-           
-           
+  padding-top: 5px;
+   
+
 }
 /* Header Styles */
 #header {
     background-color: #2575fc;
-    padding: 15px;
+    padding: 1em;
+    height: 75px;
     width: auto; /* Make header responsive by setting the width to 100% */
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -46,14 +48,14 @@ h1 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 108vh; /* Full viewport height */
+    height: 110vh; /* Full viewport height */
     display: flex;
     flex-direction: column;
     justify-content: center; /* Centers content vertically */
     align-items: center; /* Centers content horizontally */
     color: white;
     text-align: center;
-    padding: 1em;
+    padding: 2em;
     box-sizing: border-box;
     margin-left: -35px;
 }
